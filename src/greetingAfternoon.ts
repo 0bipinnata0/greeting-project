@@ -1,5 +1,5 @@
-const greetingAfternoon = () => {
-  console.info('good **** afternoon')
+const greetingAfternoon = (name: string) => {
+  console.info("good **** afternoon " + name);
 };
 
 export default greetingAfternoon;
