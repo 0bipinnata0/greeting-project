@@ -16,3 +16,5 @@ npx changeset
 
 git checkout -b prerelease
 npx changeset pre enter alpha
+
+npx changeset pre exit
