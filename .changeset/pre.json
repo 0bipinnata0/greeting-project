@@ -4,5 +4,8 @@
   "initialVersions": {
     "@0bipinnata0/greeting-project": "1.0.2"
   },
-  "changesets": []
+  "changesets": [
+    "hot-waves-draw",
+    "tough-impalas-happen"
+  ]
 }
