@@ -1,9 +1,10 @@
 {
   "name": "@0bipinnata0/greeting-project",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "release-package": "npm run build && npx changeset publish"
   },
   "exports": {
     "import": {
@@ -14,11 +15,15 @@
     },
     "types": "./lib/types/index.d.ts"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [],
   "type": "module",
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.27.9",
     "rollup": "^4.24.2",
     "rollup-plugin-delete": "^2.1.0",
     "rollup-plugin-typescript2": "^0.36.0",
